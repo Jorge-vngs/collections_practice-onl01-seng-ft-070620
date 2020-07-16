@@ -41,10 +41,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-    if array.collect do |x|
-       array << "s"
-  else 
-    x
-    end 
+   array.collect do |x|
+     array << "s"
   end 
 end 
